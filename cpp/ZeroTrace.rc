@@ -1,0 +1,7 @@
+1 RT_MANIFEST "ZeroTrace.manifest"
+101 ICON "ZeroTrace.ico"
+
+/* Embedded payloads. Paths are resolved relative to the project root, which is
+   the working directory build_cpp.bat sets before invoking windres/rc. */
+201 RCDATA "assets\\avatar.png"
+202 RCDATA "scripts\\Remove-Epic-Fortnite-EAC.bat"
